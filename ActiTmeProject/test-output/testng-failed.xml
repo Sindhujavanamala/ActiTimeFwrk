@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="VerifyHomeTitleTest(failed)">
+    <classes>
+      <class name="com.actitime.testscripts.VerifyHomeTitleTest">
+        <methods>
+          <include name="logout"/>
+          <include name="loginSetup"/>
+          <include name="classsetup"/>
+          <include name="exit"/>
+          <include name="verifyTitle"/>
+        </methods>
+      </class> <!-- com.actitime.testscripts.VerifyHomeTitleTest -->
+    </classes>
+  </test> <!-- VerifyHomeTitleTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
